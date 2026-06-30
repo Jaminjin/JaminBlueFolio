@@ -73,7 +73,22 @@ void loop() {
 ```
 
 # Bill of Materials
-Here's where you'll list the parts in your project. To add more rows, just copy and paste the example rows below.
+NANO board*1
+NANO shield*1
+USB Cable*1
+Joystick module*2
+A pair of Acrylic sheet
+SG90 Servo*3
+battery case*1
+MG90S Servo*1
+Turntable*1
+DuPont line*8
+P1.2*4mm self-tapping screw*17
+M2*8mm round head screw *8
+M2 nut*8
+M3*6mm round head screw*20
+M3*10mm round head screw*10
+M3*10mm ...
 Don't forget to place the link of where to buy each component inside the quotation marks in the corresponding row after href =. Follow the guide [here]([url](https://www.markdownguide.org/extended-syntax/)) to learn how to customize this to your project needs. 
 
 | **Part** | **Note** | **Price** | **Link** |
