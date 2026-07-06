@@ -89,9 +89,9 @@ Don't forget to place the link of where to buy each component inside the quotati
 
 | **Part** | **Note** | **Price** | **Link** |
 |:--:|:--:|:--:|:--:|
-| Item Name | What the item is used for | $Price | <a href="https://www.amazon.com/Arduino-A000066-ARDUINO-UNO-R3/dp/B008GRTSV6/"> Link </a> |
-| Item Name | What the item is used for | $Price | <a href="https://www.amazon.com/Arduino-A000066-ARDUINO-UNO-R3/dp/B008GRTSV6/"> Link </a> |
-| Item Name | What the item is used for | $Price | <a href="https://www.amazon.com/Arduino-A000066-ARDUINO-UNO-R3/dp/B008GRTSV6/"> Link </a> |
+
+| Nano I/O Expansion Shield | Breaks out Nano pins for easier servo/sensor wiring	 | 15.9 CHf | [<a href="https://www.amazon.com/Arduino-A000066-ARDUINO-UNO-R3/dp/B008GRTSV6/"> Link </a>](https://www.galaxus.ch/en/s1/product/purecrea-prototype-shield-v3-for-arduino-nano-single-board-computer-kits-36688810) |
+| Robot arm for arduino kit | The kit required with parts for the assembly of the robotic arm | 58 CHf | [<a href="https://www.amazon.com/Arduino-A000066-ARDUINO-UNO-R3/dp/B008GRTSV6/"> Link </a>](https://www.ubuy.co.it/en/product/3PUQNSM-lk-cokoino-4-axis-robotic-arm-kit-for-arduino-4dof-mini-desktop-robot-arm-for-children-adults-compliment-engineering-math-science-and-technology-learn?srsltid=AfmBOoq4jKaJOkFeXI5C3a6njOb_Wvns5eEkLJdFX89tzTRQ_EQAxhTh) |
 
 # Other Resources/Examples
 One of the best parts about Github is that you can view how other people set up their own work. Here are some past BSE portfolios that are awesome examples. You can view how they set up their portfolio, and you can view their index.md files to understand how they implemented different portfolio components.
