@@ -13,7 +13,7 @@ You should comment out all portions of your portfolio that you have not complete
 
 **Replace the BlueStamp logo below with an image of yourself and your completed project. Follow the guide [here](https://tomcam.github.io/least-github-pages/adding-images-github-pages-site.html) if you need help.**
 
-![Jamin with his robotic arm](images/jamin_arm.png)
+![Jamin with his robotic arm](Screenshot 2026-07-06 at 19.02.09.png)
   
 # Final Milestone
 
