@@ -1,5 +1,5 @@
 # Jamin's robotic arm project
-Replace this text with a brief description (2-3 sentences) of your project. This description should draw the reader in and make them interested in what you've built. You can include what the biggest challenges, takeaways, and triumphs from completing the project were. As you complete your portfolio, remember your audience is less familiar than you are with all that your project entails!
+My project is the robotic arm for arduino, a four jointed robotic arm that can pick items up with a claw gripper. The biggest challenge in my opinion was the assembly of the arm as I am personally inexperienced with the given hardware. The biggest takeaway I would say is the experience I gained from doing this project: assembling the hardware, and using the software.
 
 You should comment out all portions of your portfolio that you have not completed yet, as well as any instructions:
 ```HTML 
