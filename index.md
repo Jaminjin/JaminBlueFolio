@@ -1,5 +1,5 @@
 # Jamin's robotic arm project
-My project is the robotic arm for arduino, a four jointed robotic arm that can pick items up with a claw gripper. The biggest takeaway I would say is the experience I gained from doing this project: assembling the hardware, and using the software.
+My project is the robotic arm for arduino, a four jointed robotic arm that can pick items up with a claw gripper. The four joints are four servos that provide torque so that the specific joint can move accordingly. My biggest takeaway from this project I would say is the experience I gained from doing this project: assembling the hardware, and using the software.
 
 You should comment out all portions of your portfolio that you have not completed yet, as well as any instructions:
 ```HTML 
@@ -35,11 +35,8 @@ For your final milestone, explain the outcome of your project. Key details to in
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/y3VAmNlER5Y" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 
-For your second milestone, explain what you've worked on since your previous milestone. You can highlight:
-- Technical details of what you've accomplished and how they contribute to the final goal
-- What has been surprising about the project so far
-- Previous challenges you faced that you overcame
-- What needs to be completed before your final milestone 
+My second milestone was to add the "playback" feature to my robotic arm where I can record a specific movement of the arm and then replay it later. It works with two buttons, one to control the recording, and one to play the movement recording. The modification was mostly software based as it required coding for the playback feature, but the installation of the buttons also required wiring which did initially confuse me a little since it is the first time that I am using this hardware of the buttons, breadboard, and jumperwires. Something that would need to be completed is improvements upon the fluidity of the movements when being replayed as right now the robotic arm is able to mostly replay/repeat the moevements recorded at the same speed it was moved manually in an acceptable manner but it still has a little bit of a glitch in its movement which I will for sure fix.
+
 
 # First Milestone
 
