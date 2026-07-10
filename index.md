@@ -33,7 +33,7 @@ For your final milestone, explain the outcome of your project. Key details to in
 
 **Don't forget to replace the text below with the embedding for your milestone video. Go to Youtube, click Share -> Embed, and copy and paste the code to replace what's below.**
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/y3VAmNlER5Y" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+https://www.youtube.com/watch?v=ygS7DuomMOs
 
 My second milestone was to add the "playback" feature to my robotic arm where I can record a specific movement of the arm and then replay it later. It works with two buttons, one to control the recording, and one to play the movement recording. The modification was mostly software based as it required coding for the playback feature, but the installation of the buttons also required wiring which did initially confuse me a little since it is the first time that I am using this hardware of the buttons, breadboard, and jumperwires. Something that would need to be completed is improvements upon the fluidity of the movements when being replayed as right now the robotic arm is able to mostly replay/repeat the moevements recorded at the same speed it was moved manually in an acceptable manner but it still has a little bit of a glitch in its movement which I will for sure fix.
 
