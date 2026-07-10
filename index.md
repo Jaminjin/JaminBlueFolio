@@ -38,9 +38,7 @@ My second milestone was to add the "playback" feature to my robotic arm where I 
 
 # First Milestone
 
-**Don't forget to replace the text below with the embedding for your milestone video. Go to Youtube, click Share -> Embed, and copy and paste the code to replace what's below.**
-
-[<iframe width="560" height="315" src="https://www.youtube.com/embed/Yc-WTwfIG3U" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>](https://www.youtube.com/embed/Yc-WTwfIG3U?si=QrKV6HYmts6NX9iG)
+<iframe width="560" height="315" src="https://www.youtube.com/embed/Yc-WTwfIG3U?si=wUh1VxKrHHhFvJl6" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
 My project is the robotic arm for arduino, to assemble a working, contollable robotic arm with a claw gripper. The parts that this project is composed of is the acrylic peices, the four servos, arduino nano shield, any many other smaller peices that make up and is required for the assembly of this project. The technical progress I have made so far in this project is assembling the physical arm, completing the wiring, and got the manual controls working. Challenges I am facing is one of the servos not providing enough torque causing it to be stuck when lowered too much.
 
