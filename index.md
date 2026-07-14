@@ -43,7 +43,8 @@ My second milestone was to add the "playback" feature to my robotic arm where I 
 My project is the robotic arm for arduino, to assemble a working, contollable robotic arm with a claw gripper. The parts that this project is composed of is the acrylic peices, the four servos, arduino nano shield, any many other smaller peices that make up and is required for the assembly of this project. The technical progress I have made so far in this project is assembling the physical arm, completing the wiring, and got the manual controls working. Challenges I am facing is one of the servos not providing enough torque causing it to be stuck when lowered too much.
 
 # Schematics 
-Here's where you'll put images of your schematics. [Tinkercad](https://www.tinkercad.com/blog/official-guide-to-tinkercad-circuits) and [Fritzing](https://fritzing.org/learning/) are both great resoruces to create professional schematic diagrams, though BSE recommends Tinkercad becuase it can be done easily and for free in the browser. 
+
+![Wiring Schematic](schematic.png)
 
 # Code
 Here's where you'll put your code. The syntax below places it into a block of code. Follow the guide [here]([url](https://www.markdownguide.org/extended-syntax/)) to learn how to customize it to your project needs. 
