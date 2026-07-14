@@ -223,8 +223,6 @@ void loop() {
 | Cokoino CKK0006 4-Axis Robotic Arm Kit | Includes Nano, servos, joysticks, acrylic parts, screws | 58 CHF | [Link](https://www.u-buy.ch/en/product/3PUQNSM-lk-cokoino-4-axis-robotic-arm-kit-for-arduino-4dof-mini-desktop-robot-arm-for-children-adults-compliment-engineering-math-science-and-technology-learn?srsltid=AfmBOoq4jKaJOkFeXI5C3a6njOb_Wvns5eEkLJdFX89tzTRQ_EQAxhTh&ref=hm-google-redirect) |
 | PureCrea Prototype Shield V3 for Arduino Nano | Breaks out Nano pins for easier wiring | 15.9 CHF | [Link](https://www.galaxus.ch/de/s1/product/purecrea-prototype-shield-v3-fuer-arduino-nano-entwicklungsboard-kit-36688810) |
 | Duracell 9V Battery | Powers the servos | ~3 CHF | [Link](https://www.coop-city.ch/de/wohnen-reisen/multimedia/batterien/alkaline-batterien/duracell-batterie-plus-9v6lr61-1-stueck/p/6761135) |
-| Tactile push buttons x5 | Record, replay, faster, slower, home | — | — |
-
 # Other Resources/Examples
 
 - Robotic arm for arduino
