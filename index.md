@@ -11,7 +11,7 @@ My project is the robotic arm for arduino, a four jointed robotic arm that can p
 |:--:|:--:|:--:|:--:|
 | Jamin Jin | College Champittet | Mechanical/software engineering | entering final year of high school
 
-**Replace the BlueStamp logo below with an image of yourself and your completed project. Follow the guide [here](https://tomcam.github.io/least-github-pages/adding-images-github-pages-site.html) if you need help.**
+![Robot Arm](robot_arm.png)
 
 ![Jamin with his robotic arm](Screenshot 2026-07-06 at 19.02.09.png)
   
