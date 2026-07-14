@@ -218,29 +218,12 @@ void loop() {
 ```
 
 # Bill of Materials
-NANO board*1
-NANO shield*1
-USB Cable*1
-Joystick module*2
-A pair of Acrylic sheet
-SG90 Servo*3
-battery case*1
-MG90S Servo*1
-Turntable*1
-DuPont line*8
-P1.2*4mm self-tapping screw*17
-M2*8mm round head screw *8
-M2 nut*8
-M3*6mm round head screw*20
-M3*10mm round head screw*10
-M3*10mm ...
-Don't forget to place the link of where to buy each component inside the quotation marks in the corresponding row after href =. Follow the guide [here]([url](https://www.markdownguide.org/extended-syntax/)) to learn how to customize this to your project needs. 
-
 | **Part** | **Note** | **Price** | **Link** |
 |:--:|:--:|:--:|:--:|
-
-| Nano I/O Expansion Shield | Breaks out Nano pins for easier servo/sensor wiring	 | 15.9 CHf | [<a href="https://www.amazon.com/Arduino-A000066-ARDUINO-UNO-R3/dp/B008GRTSV6/"> Link </a>](https://www.galaxus.ch/en/s1/product/purecrea-prototype-shield-v3-for-arduino-nano-single-board-computer-kits-36688810) |
-| Robot arm for arduino kit | The kit required with parts for the assembly of the robotic arm | 58 CHf | [<a href="https://www.amazon.com/Arduino-A000066-ARDUINO-UNO-R3/dp/B008GRTSV6/"> Link </a>](https://www.ubuy.co.it/en/product/3PUQNSM-lk-cokoino-4-axis-robotic-arm-kit-for-arduino-4dof-mini-desktop-robot-arm-for-children-adults-compliment-engineering-math-science-and-technology-learn?srsltid=AfmBOoq4jKaJOkFeXI5C3a6njOb_Wvns5eEkLJdFX89tzTRQ_EQAxhTh) |
+| Cokoino CKK0006 4-Axis Robotic Arm Kit | Includes Nano, servos, joysticks, acrylic parts, screws | 58 CHF | [Link](https://www.u-buy.ch/en/product/3PUQNSM-lk-cokoino-4-axis-robotic-arm-kit-for-arduino-4dof-mini-desktop-robot-arm-for-children-adults-compliment-engineering-math-science-and-technology-learn?srsltid=AfmBOoq4jKaJOkFeXI5C3a6njOb_Wvns5eEkLJdFX89tzTRQ_EQAxhTh&ref=hm-google-redirect) |
+| PureCrea Prototype Shield V3 for Arduino Nano | Breaks out Nano pins for easier wiring | 15.9 CHF | [Link](https://www.galaxus.ch/de/s1/product/purecrea-prototype-shield-v3-fuer-arduino-nano-entwicklungsboard-kit-36688810) |
+| Duracell 9V Battery | Powers the servos | ~3 CHF | [Link](https://www.coop-city.ch/de/wohnen-reisen/multimedia/batterien/alkaline-batterien/duracell-batterie-plus-9v6lr61-1-stueck/p/6761135) |
+| Tactile push buttons x5 | Record, replay, faster, slower, home | — | — |
 
 # Other Resources/Examples
 
