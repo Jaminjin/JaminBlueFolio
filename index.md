@@ -11,7 +11,7 @@ My project is the robotic arm for arduino, a four jointed robotic arm that can p
 |:--:|:--:|:--:|:--:|
 | Jamin Jin | College Champittet | Mechanical/software engineering | entering final year of high school
 
-![Cover image](jamino_arm.png)
+![Cover image](Sonic_jam.png)
 
   
 # Final Milestone
