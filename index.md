@@ -59,9 +59,12 @@ Here's where you'll put your code. The syntax below places it into a block of co
  *   ...repeats
  */
 #include "src/CokoinoArm.h"
-#define buzzerPin 3
-#define btnLeft   8
-#define btnRight  9
+#define buzzerPin  3
+#define btnLeft    8
+#define btnRight   9
+#define btnFaster  10
+#define btnSlower  11
+#define btnHome    12
 
 CokoinoArm arm;
 int xL, yL, xR, yR;
@@ -74,6 +77,10 @@ int num_do = 0;
 
 // 0 = idle, 1 = recording, 2 = has recording
 int recState = 0;
+
+// Speed control: 5 levels, index 2 is the default (unchanged)
+const int speedLevels[5] = {0, 1, 3, 7, 15};
+int speedIndex = 2; // default = 20
 
 unsigned long lastCapture = 0;
 const unsigned long captureInterval = 500; // ms between captured frames
@@ -88,47 +95,50 @@ void beep(int period_us, int duration_ms) {
 }
 ///////////////////////////////////////////////////////////////
 void turnUD(void) {
+  int s = speedLevels[speedIndex];
   if (xL != 512) {
-    if (0   <= xL && xL <= 100) { arm.up(10);   return; }
-    if (900  < xL && xL <=1024) { arm.down(10);  return; }
-    if (100  < xL && xL <= 200) { arm.up(20);   return; }
-    if (800  < xL && xL <= 900) { arm.down(20);  return; }
-    if (200  < xL && xL <= 300) { arm.up(25);   return; }
-    if (700  < xL && xL <= 800) { arm.down(25);  return; }
-    if (300  < xL && xL <= 400) { arm.up(30);   return; }
-    if (600  < xL && xL <= 700) { arm.down(30);  return; }
-    if (400  < xL && xL <= 480) { arm.up(35);   return; }
-    if (540  < xL && xL <= 600) { arm.down(35);  return; }
+    if (0   <= xL && xL <= 100) { arm.up(s);   return; }
+    if (900  < xL && xL <=1024) { arm.down(s);  return; }
+    if (100  < xL && xL <= 200) { arm.up(s);   return; }
+    if (800  < xL && xL <= 900) { arm.down(s);  return; }
+    if (200  < xL && xL <= 300) { arm.up(s);   return; }
+    if (700  < xL && xL <= 800) { arm.down(s);  return; }
+    if (300  < xL && xL <= 400) { arm.up(s);   return; }
+    if (600  < xL && xL <= 700) { arm.down(s);  return; }
+    if (400  < xL && xL <= 480) { arm.up(s);   return; }
+    if (540  < xL && xL <= 600) { arm.down(s);  return; }
   }
 }
 ///////////////////////////////////////////////////////////////
 void turnLR(void) {
+  int s = speedLevels[speedIndex];
   if (yL != 512) {
-    if (0   <= yL && yL <= 100) { arm.right(0);  return; }
-    if (900  < yL && yL <=1024) { arm.left(0);   return; }
-    if (100  < yL && yL <= 200) { arm.right(5);  return; }
-    if (800  < yL && yL <= 900) { arm.left(5);   return; }
-    if (200  < yL && yL <= 300) { arm.right(10); return; }
-    if (700  < yL && yL <= 800) { arm.left(10);  return; }
-    if (300  < yL && yL <= 400) { arm.right(15); return; }
-    if (600  < yL && yL <= 700) { arm.left(15);  return; }
-    if (400  < yL && yL <= 480) { arm.right(20); return; }
-    if (540  < yL && yL <= 600) { arm.left(20);  return; }
+    if (0   <= yL && yL <= 100) { arm.right(s);  return; }
+    if (900  < yL && yL <=1024) { arm.left(s);   return; }
+    if (100  < yL && yL <= 200) { arm.right(s);  return; }
+    if (800  < yL && yL <= 900) { arm.left(s);   return; }
+    if (200  < yL && yL <= 300) { arm.right(s);  return; }
+    if (700  < yL && yL <= 800) { arm.left(s);   return; }
+    if (300  < yL && yL <= 400) { arm.right(s);  return; }
+    if (600  < yL && yL <= 700) { arm.left(s);   return; }
+    if (400  < yL && yL <= 480) { arm.right(s);  return; }
+    if (540  < yL && yL <= 600) { arm.left(s);   return; }
   }
 }
 ///////////////////////////////////////////////////////////////
 void turnCO(void) {
+  int s = speedLevels[speedIndex];
   if (xR != 512) {
-    if (0   <= xR && xR <= 100) { arm.close(0);  return; }
-    if (900  < xR && xR <=1024) { arm.open(0);   return; }
-    if (100  < xR && xR <= 200) { arm.close(5);  return; }
-    if (800  < xR && xR <= 900) { arm.open(5);   return; }
-    if (200  < xR && xR <= 300) { arm.close(10); return; }
-    if (700  < xR && xR <= 800) { arm.open(10);  return; }
-    if (300  < xR && xR <= 400) { arm.close(15); return; }
-    if (600  < xR && xR <= 700) { arm.open(15);  return; }
-    if (400  < xR && xR <= 480) { arm.close(20); return; }
-    if (540  < xR && xR <= 600) { arm.open(20);  return; }
+    if (0   <= xR && xR <= 100) { arm.close(s);  return; }
+    if (900  < xR && xR <=1024) { arm.open(s);   return; }
+    if (100  < xR && xR <= 200) { arm.close(s);  return; }
+    if (800  < xR && xR <= 900) { arm.open(s);   return; }
+    if (200  < xR && xR <= 300) { arm.close(s);  return; }
+    if (700  < xR && xR <= 800) { arm.open(s);   return; }
+    if (300  < xR && xR <= 400) { arm.close(s);  return; }
+    if (600  < xR && xR <= 700) { arm.open(s);   return; }
+    if (400  < xR && xR <= 480) { arm.close(s);  return; }
+    if (540  < xR && xR <= 600) { arm.open(s);   return; }
   }
 }
 ///////////////////////////////////////////////////////////////
@@ -190,14 +200,40 @@ void checkButtons() {
     beep(200, 200);
     while (digitalRead(btnRight) == LOW) {}
   }
+
+  // --- FASTER button ---
+  if (digitalRead(btnFaster) == LOW) {
+    if (speedIndex < 4) speedIndex++;
+    beep(150, 80);
+    while (digitalRead(btnFaster) == LOW) {}
+  }
+
+  // --- SLOWER button ---
+  if (digitalRead(btnSlower) == LOW) {
+    if (speedIndex > 0) speedIndex--;
+    beep(600, 80);
+    while (digitalRead(btnSlower) == LOW) {}
+  }
+
+  // --- HOME button: all servos to 90 ---
+  if (digitalRead(btnHome) == LOW) {
+    arm.servo1.write(90);
+    arm.servo2.write(90);
+    arm.servo3.write(90);
+    arm.servo4.write(90);
+    while (digitalRead(btnHome) == LOW) {}
+  }
 }
 ///////////////////////////////////////////////////////////////
 void setup() {
   arm.ServoAttach(4, 5, 6, 7);
   arm.JoyStickAttach(A0, A1, A2, A3);
   pinMode(buzzerPin, OUTPUT);
-  pinMode(btnLeft,  INPUT_PULLUP);
-  pinMode(btnRight, INPUT_PULLUP);
+  pinMode(btnLeft,    INPUT_PULLUP);
+  pinMode(btnRight,   INPUT_PULLUP);
+  pinMode(btnFaster,  INPUT_PULLUP);
+  pinMode(btnSlower,  INPUT_PULLUP);
+  pinMode(btnHome,    INPUT_PULLUP);
 }
 ///////////////////////////////////////////////////////////////
 void loop() {
