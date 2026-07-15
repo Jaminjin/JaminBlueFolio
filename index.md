@@ -226,4 +226,4 @@ void loop() {
 - Github: https://github.com/Cokoino/CKK0006/tree/master
 
 
-To watch the BSE tutorial on how to create a portfolio, click here.
+
