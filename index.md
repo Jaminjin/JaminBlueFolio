@@ -18,13 +18,10 @@ My project is the robotic arm for arduino, a four jointed robotic arm that can p
 
 **Don't forget to replace the text below with the embedding for your milestone video. Go to Youtube, click Share -> Embed, and copy and paste the code to replace what's below.**
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/F7M7imOVGug" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/6j2bav_Q7jk?si=4seBcMq0uvoBzZ-u" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
-For your final milestone, explain the outcome of your project. Key details to include are:
-- What you've accomplished since your previous milestone
-- What your biggest challenges and triumphs were at BSE
-- A summary of key topics you learned about
-- What you hope to learn in the future after everything you've learned at BSE
+
+My final milestone was to add a arm movement speed regulator along with a position rest feature. The speed regulator is two buttons where one speeds up the movement of the arm and one slows it down wioth there being a total of 5 different speeds. The position reset features is a singular button that when pressed, resets the arm to its original position where all servos are at 90 degrees. My biggest challenge up to now is the handling of the wiring as prior to this project I have not had experience with this hardware. My biggest triumph up to now is getting the buttons to work with the breadboard as before I had tried to use the buttons integrated into the joysticks however I later found out that they were faulty so switched to buttons on a breadboard.
 
 
 
