@@ -5,7 +5,7 @@ My project is the robotic arm for arduino, a four jointed robotic arm that can p
 
 | **Engineer** | **School** | **Area of Interest** | **Grade** |
 |:--:|:--:|:--:|:--:|
-| Jamin Jin | College Champittet | Mechanical/software engineering | entering final year of high school
+| Jamin J | College Champittet | Mechanical/software engineering | Entering final year of high school
 
 ![Cover image](Sonic_jam.png)
 
