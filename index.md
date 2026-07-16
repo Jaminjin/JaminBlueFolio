@@ -2,10 +2,6 @@
 My project is the robotic arm for arduino, a four jointed robotic arm that can pick items up with a claw gripper. The four joints are four servos that provide torque so that the specific joint can move accordingly to the manual controls. One of my biggest takeaways from this project I would say is the experience of the technical aspects from this project: assembling the hardware, and using the software.
 
 
-```HTML 
-<!--- This is an HTML comment in Markdown -->
-<!--- Anything between these symbols will not render on the published site -->
-```
 
 | **Engineer** | **School** | **Area of Interest** | **Grade** |
 |:--:|:--:|:--:|:--:|
